@@ -26,7 +26,7 @@ $(".m_photoItem.m_photoItem_a.phtItem_hv img").each(function(index){
 var str3 = str1.split(".jpg");
 //var alertstr;
 for (i=0;i<str3.length;i++) {
-	str3[i]="<div class=\"cell\"><a href=\""+str3[i]+".jpg \"target=\"_blank\"><img src=\""+str3[i]+".jpg\"></a><p></div>";
+	str3[i]="<div class=\"cell\"><a href=\""+str3[i]+".jpg \"target=\"_blank\"><img src=\""+str3[i].replace("large", "small")+".jpg\"></a><p></div>";
 	document.write(str3[i]);
 //	alertstr += str3[i];
 }

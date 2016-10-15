@@ -1,3 +1,4 @@
+// 理论上没有我讲解没有人懂得怎么用
 // 加载jquery
 var head= document.getElementsByTagName('head')[0];   
 var script= document.createElement('script');   
